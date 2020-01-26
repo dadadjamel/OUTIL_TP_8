@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'jacoco'
     id "org.sonarqube" version "2.7"
+    id 'maven'
 }
 
 version '1.0-SNAPSHOT'
@@ -33,7 +34,13 @@ sonarqube {
         property "sonar.sourceEncoding", "UTF-8"
     }
 }
-
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://localhost/tmp/myRepo/")
+        }
+    }
+}
 
 
 
