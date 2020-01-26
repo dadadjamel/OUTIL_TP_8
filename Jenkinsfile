@@ -7,6 +7,12 @@ pipeline {
       }
     }
 
+    stage('Mail Notification') {
+      steps {
+        mail(subject: 'jenkins', body: 'voila une notification', cc: 'gs_riache@esi.dz')
+      }
+    }
+
   }
   environment {
     PATH = 'C:\\Windows\\System32'
