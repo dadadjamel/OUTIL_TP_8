@@ -2,7 +2,7 @@ plugins {
     id 'java'
     id 'jacoco'
     id "org.sonarqube" version "2.7"
-    id 'maven'
+    id 'maven-publish'
 }
 
 version '1.0-SNAPSHOT'
@@ -34,13 +34,24 @@ sonarqube {
         property "sonar.sourceEncoding", "UTF-8"
     }
 }
-uploadArchives {
+publishing {
     repositories {
-        mavenDeployer {
-            repository(url: "file://localhost/tmp/myRepo/")
+        maven {
+            url 'https://mymavenrepo.com/repo/Uud3Cwd1F8aqqzdhh9Ei/'
+            credentials {
+                username 'myMavenRepo'
+                password '123'
+            }
+        }
+    }
+
+    publications {
+        maven(MavenPublication) {
+            from components.java
         }
     }
 }
+
 
 
 
