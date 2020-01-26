@@ -1,28 +1,27 @@
 package com.test;
-
+import com.example.exception.NoSquareException;
+import com.example.model.Matrix;
+import com.example.service.MatrixMathematics;
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
-import com.exception.NoSquareException;
-import com.model.Matrix;
-import com.service.MatrixMathematics;
+
 
 public class MatrixMathematicsTest 
 {
 
 	@Test
-	public final void testTranspose() 
+	public final void testTranspose()
 	{
 		double [][] data ={{1,2},{3,4},{5,6}};
 		double [][] Tdata ={{1,3,5},{2,4,6}};
-		Matrix mat=new Matrix(data); 
-		
+		Matrix mat=new Matrix(data);
+
 		assertArrayEquals(MatrixMathematics.transpose(mat).getValues(),Tdata);
-		
+
 	}
 
-/*	@Test
+	@Test
 	public final void testInverse() 
 	{ 
 		double [][] data ={{1,2},{3,4}};
@@ -35,25 +34,15 @@ public class MatrixMathematicsTest
 			}
 		
 		
-	}*/
-
-	@Test
-	public final void testDeterminantCarre()
-	{
-		double [][] data ={{1,2},{3,4}};
-		Matrix mat=new Matrix(data); 
-		double det = -2;
-		try{
-		assertEquals(MatrixMathematics.determinant(mat),det,0);
-		} catch ( NoSquareException e ){System.out.print("la matrice doit etre carr�e");
-		}
 	}
+
+
 
 	@Test
 	public final void testDeterminant()
 	{
 		double [][] data ={{1,2,3},{4,5,6},{7,8,9}};
-		Matrix mat=new Matrix(data); 
+		Matrix mat=new Matrix(data);
 		double det = 0;
 		try{
 		assertEquals(MatrixMathematics.determinant(mat),det,0);
