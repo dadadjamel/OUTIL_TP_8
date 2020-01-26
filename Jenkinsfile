@@ -14,21 +14,10 @@ pipeline {
       }
     }
 
-    stage('Code Analysis') {
-      parallel {
-        stage('Code Analysis') {
-          steps {
-            withSonarQubeEnv 'sonar'
-            withSonarQubeEnv 'sonar'
-          }
-        }
-
-        stage('Test Reporting') {
-          steps {
-            jacoco(buildOverBuild: true, changeBuildStatus: true)
-          }
-        }
-
+    stage('Test Reporting') {
+      steps {
+        jacoco(buildOverBuild: true, changeBuildStatus: true)
+        withSonarQubeEnv 'sonar'
       }
     }
 
