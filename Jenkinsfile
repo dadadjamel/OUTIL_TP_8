@@ -13,6 +13,12 @@ pipeline {
       }
     }
 
+    stage('Code Analysis') {
+      steps {
+        withSonarQubeEnv 'sonar'
+      }
+    }
+
   }
   environment {
     PATH = 'C:\\Windows\\System32'
