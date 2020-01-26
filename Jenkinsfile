@@ -10,6 +10,7 @@ pipeline {
     stage('Mail Notification') {
       steps {
         mail(subject: 'jenkins', body: 'voila une notification', cc: 'gs_riache@esi.dz')
+        mail(subject: 'mail notif', body: 'mail notif', cc: 'gs_riache@esi.dz ')
       }
     }
 
