@@ -19,7 +19,7 @@ pipeline {
 
     stage('Sonarqube') {
       steps {
-        withSonarQubeEnv 'sonar'
+        withSonarQubeEnv 'sonarqube'
       }
     }
 
