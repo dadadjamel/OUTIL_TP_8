@@ -17,5 +17,11 @@ pipeline {
       }
     }
 
+    stage('Sonarqube') {
+      steps {
+        withSonarQubeEnv 'sonar'
+      }
+    }
+
   }
 }
