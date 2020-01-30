@@ -1,26 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd08f98f-3d28-47d7-b8cf-57d740bfe3af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb5ff88d-e927-4258-97b4-d78ade6560dd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle - Copy/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/modules/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/modules/untitled.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/modules/untitled.test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea - Copy/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/untitled.test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OUTIL_TP_8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/classes/java/main/com/exception/NoSquareException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/classes/java/main/com/model/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/classes/java/main/com/service/MatrixMathematics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/classes/java/test/com/test/MatrixMathematicsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/jacoco/test.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/classes/com.test.MatrixMathematicsTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/reports/tests/test/packages/com.test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/test-results/test/TEST-com.test.MatrixMathematicsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/jacocoagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build - Copy/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/org/jacoco/agent/AgentJar.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/exception/NoSquareException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/model/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/service/MatrixMathematics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/test/MatrixMathematicsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jacoco/test.exec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.test.MatrixMathematicsTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sonar/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.test.MatrixMathematicsTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/maven/org.jacoco/org.jacoco.agent/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/META-INF/maven/org.jacoco/org.jacoco.agent/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/jacocoagent.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/expandedArchives/org.jacoco.agent-0.8.2.jar_2aca8b620b19ecd063f63feff8caaa38/org/jacoco/agent/AgentJar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings - Copy.gradle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src - Copy/main/java/com/exception/NoSquareException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src - Copy/main/java/com/model/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src - Copy/main/java/com/service/MatrixMathematics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src - Copy/test/java/com/test/MatrixMathematicsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 1.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 1.0/main/java/com/exception/NoSquareException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 1.0/main/java/com/model/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 1.0/main/java/com/service/MatrixMathematics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src 1.0/test/java/com/test/MatrixMathematicsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/exception/NoSquareException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/MatrixMathematics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/MatrixMathematicsTest.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,20 +134,10 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <task path="$PROJECT_DIR$">
-          <activation />
-        </task>
-        <projects_view />
-      </state>
-    </system>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1X82Sj8ixY8vTO0mM55XTr54qlD" />
+  <component name="ProjectId" id="1X87g5pZXWDWSl4ClSZ8cnKP6KG" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -63,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.OUTIL_TP_8 [jacocoTestCoverageVerification]">
+  <component name="RunManager" selected="Gradle.OUTIL_TP_8 [properties]">
     <configuration name="OUTIL_TP_8 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,6 +193,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="OUTIL_TP_8 [properties]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="properties" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="OUTIL_TP_8 [sonarqube]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -123,8 +233,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.OUTIL_TP_8 [jacocoTestCoverageVerification]" />
+        <item itemvalue="Gradle.OUTIL_TP_8 [properties]" />
         <item itemvalue="Gradle.OUTIL_TP_8 [sonarqube]" />
+        <item itemvalue="Gradle.OUTIL_TP_8 [jacocoTestCoverageVerification]" />
         <item itemvalue="Gradle.OUTIL_TP_8 [dependencies]" />
       </list>
     </recent_temporary>
@@ -134,12 +245,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fd08f98f-3d28-47d7-b8cf-57d740bfe3af" name="Default Changelist" comment="" />
-      <created>1580413402093</created>
+      <changelist id="cb5ff88d-e927-4258-97b4-d78ade6560dd" name="Default Changelist" comment="" />
+      <created>1580415975356</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1580413402093</updated>
-      <workItem from="1580413403953" duration="1635000" />
+      <updated>1580415975356</updated>
+      <workItem from="1580415977297" duration="51000" />
     </task>
     <servers />
   </component>
