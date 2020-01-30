@@ -29,7 +29,7 @@ pipeline {
 
         stage('Jacoco') {
           steps {
-            jacoco()
+            jacoco(buildOverBuild: true, changeBuildStatus: true)
           }
         }
 
