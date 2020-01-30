@@ -1,0 +1,49 @@
+{
+  "formatVersion": "0.4",
+  "component": {
+    "group": "",
+    "module": "untitled",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "5.2.1",
+      "buildId": "3rrp6e35xvgvjdqaeiovyx72im"
+    }
+  },
+  "variants": [
+    {
+      "name": "runtime",
+      "attributes": {
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "untitled-1.0-SNAPSHOT.jar",
+          "url": "untitled-1.0-SNAPSHOT.jar",
+          "size": 3478,
+          "sha1": "a76b0f080b1276d9f4efeb2181974615a1e2e7c3",
+          "md5": "ca94ef16bbcbdf66692233575eb8019e"
+        }
+      ]
+    },
+    {
+      "name": "api",
+      "attributes": {
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "untitled-1.0-SNAPSHOT.jar",
+          "url": "untitled-1.0-SNAPSHOT.jar",
+          "size": 3478,
+          "sha1": "a76b0f080b1276d9f4efeb2181974615a1e2e7c3",
+          "md5": "ca94ef16bbcbdf66692233575eb8019e"
+        }
+      ]
+    }
+  ]
+}
