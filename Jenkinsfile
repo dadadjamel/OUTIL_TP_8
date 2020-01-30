@@ -11,5 +11,11 @@ pipeline {
       }
     }
 
+    stage('Email notification') {
+      steps {
+        mail(subject: 'Email notification', body: 'here is the results of thee first step', cc: 'gs_riache@esi.dz')
+      }
+    }
+
   }
 }
