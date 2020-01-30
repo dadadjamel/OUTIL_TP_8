@@ -17,5 +17,24 @@ pipeline {
       }
     }
 
+    stage('Sonarqube') {
+      parallel {
+        stage('Sonarqube') {
+          steps {
+            withSonarQubeEnv 'sonarqube1'
+            bat 'gradle sonarqube'
+            waitForQualityGate true
+          }
+        }
+
+        stage('Jacoco') {
+          steps {
+            jacoco()
+          }
+        }
+
+      }
+    }
+
   }
 }
