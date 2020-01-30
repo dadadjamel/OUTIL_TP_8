@@ -5,6 +5,7 @@ pipeline {
       steps {
         bat 'gradle build'
         bat 'gradle javadoc'
+        archiveArtifacts 'build/libs/untitled-1.0-SNAPSHOT.jar'
       }
     }
 
