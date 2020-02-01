@@ -18,12 +18,23 @@ pipeline {
     }
 
     stage('Code analysis') {
-      steps {
-        withSonarQubeEnv('sonar') {
-          bat 'gradle sonarqube'
+      parallel {
+        stage('Code analysis') {
+          steps {
+            withSonarQubeEnv('sonar') {
+              bat 'gradle sonarqube'
+            }
+
+            waitForQualityGate true
+          }
         }
 
-        waitForQualityGate true
+        stage('Test Reporting') {
+          steps {
+            jacoco(execPattern: 'build/jacoco/*.exec\'', sourcePattern: 'src/main/java', inclusionPattern: '**/*.class', classPattern: 'build/classes')
+          }
+        }
+
       }
     }
 
