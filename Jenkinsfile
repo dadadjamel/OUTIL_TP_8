@@ -17,23 +17,5 @@ pipeline {
       }
     }
 
-    stage('Sonarqube') {
-      parallel {
-        stage('Sonarqube') {
-          steps {
-            withSonarQubeEnv 'sonar'
-            bat 'gradle sonarqube'
-          }
-        }
-
-        stage('Jacoco') {
-          steps {
-            jacoco(buildOverBuild: true, changeBuildStatus: true)
-          }
-        }
-
-      }
-    }
-
   }
 }
