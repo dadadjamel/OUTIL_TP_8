@@ -17,7 +17,7 @@ pipeline {
       }
     }
 
-    stage('Sonarqube') {
+    stage('Code analysis') {
       steps {
         withSonarQubeEnv('sonar') {
           bat 'gradle sonarqube'
