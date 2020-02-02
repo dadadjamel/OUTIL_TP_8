@@ -1,6 +1,6 @@
-projectKey=untitled
+projectKey=mygroup:untitled
 serverUrl=http://localhost:9000
 serverVersion=7.4.0.18908
-dashboardUrl=http://localhost:9000/dashboard?id=untitled
-ceTaskId=AXAC_9uZ_4HfjKGT1UCL
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXAC_9uZ_4HfjKGT1UCL
+dashboardUrl=http://localhost:9000/dashboard?id=mygroup%3Auntitled
+ceTaskId=AXAFM_Vk_4HfjKGT1UC0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXAFM_Vk_4HfjKGT1UC0
