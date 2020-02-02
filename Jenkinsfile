@@ -13,7 +13,7 @@ pipeline {
 
     stage('Email notification') {
       steps {
-        mail(subject: 'Email notification', body: 'here is the results of thee first step', cc: 'gs_riache@esi.dz')
+        mail(subject: 'Email notification', body: 'here is the results of thee first step', bcc: 'gs_riache@esi.dz')
       }
     }
 
@@ -38,18 +38,18 @@ pipeline {
     }
 
     stage('Deployment') {
-when {
-		branch 'master'
-	}
+      when {
+        branch 'master'
+      }
       steps {
         bat 'gradle publish'
       }
     }
 
     stage('Slack Notification') {
-when {
-		branch 'master'
-	}
+      when {
+        branch 'master'
+      }
       steps {
         slackSend(baseUrl: 'https://hooks.slack.com/services/', channel: 'gd_dada', token: 'TT638QSA3/BTGR6T21L/Me5FiArLCJaE9t7QhUjbkq8R')
       }
