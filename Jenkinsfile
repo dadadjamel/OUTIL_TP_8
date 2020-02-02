@@ -17,22 +17,30 @@ pipeline {
       }
     }
 
-    stage('Sonarqube') {
+    stage('Code analysis') {
       parallel {
-        stage('Sonarqube') {
+        stage('Code analysis') {
           steps {
-            withSonarQubeEnv 'sonarqube1'
-            bat 'gradle sonarqube'
+            withSonarQubeEnv('sonar') {
+              bat 'gradle sonarqube'
+            }
+
             waitForQualityGate true
           }
         }
 
-        stage('Jacoco') {
+        stage('Test Reporting') {
           steps {
-            jacoco(buildOverBuild: true, changeBuildStatus: true)
+            jacoco(execPattern: 'build/jacoco/*.exec\'', sourcePattern: 'src/main/java', inclusionPattern: '**/*.class', classPattern: 'build/classes')
           }
         }
 
+      }
+    }
+
+    stage('Deployment') {
+      steps {
+        bat 'gradle publish'
       }
     }
 
