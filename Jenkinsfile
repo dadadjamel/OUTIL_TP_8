@@ -38,12 +38,18 @@ pipeline {
     }
 
     stage('Deployment') {
+when {
+		branch 'master'
+	}
       steps {
         bat 'gradle publish'
       }
     }
 
     stage('Slack Notification') {
+when {
+		branch 'master'
+	}
       steps {
         slackSend(baseUrl: 'https://hooks.slack.com/services/', channel: 'gd_dada', token: 'TT638QSA3/BTGR6T21L/Me5FiArLCJaE9t7QhUjbkq8R')
       }
