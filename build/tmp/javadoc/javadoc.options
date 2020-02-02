@@ -1,0 +1,8 @@
+-classpath 'C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\build\\classes\\java\\main;C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\build\\resources\\main'
+-d 'C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\build\\docs\\javadoc'
+-doctitle 'untitled 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'untitled 1.0-SNAPSHOT API'
+'C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\src\\main\\java\\com\\exception\\NoSquareException.java'
+'C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\src\\main\\java\\com\\model\\Matrix.java'
+'C:\\TP_8_outil\\tp_outil\\OUTIL_TP_8\\src\\main\\java\\com\\service\\MatrixMathematics.java'
