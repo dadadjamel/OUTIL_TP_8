@@ -13,7 +13,7 @@ pipeline {
 
     stage('Email notification') {
       steps {
-        mail(subject: 'Email notification', body: 'here is the results of thee first step', bcc: 'gs_riache@esi.dz')
+        mail(subject: 'Email notification', body: 'here is the results of thee first step', to: 'gd_dada@esi.dz')
       }
     }
 
