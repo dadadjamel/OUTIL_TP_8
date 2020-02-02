@@ -44,5 +44,11 @@ pipeline {
       }
     }
 
+    stage('Slack Notification') {
+      steps {
+        slackSend(baseUrl: 'https://hooks.slack.com/services/', channel: 'gd_dada', token: 'TT638QSA3/BTGR6T21L/Me5FiArLCJaE9t7QhUjbkq8R')
+      }
+    }
+
   }
 }
