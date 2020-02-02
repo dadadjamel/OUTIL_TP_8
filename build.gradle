@@ -29,6 +29,14 @@ jacocoTestCoverageVerification {
 }
 
 
+group='mygroup'
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'sonar-runner'
+    group='mygroup'
+}
+
+
 publishing {
     repositories {
         maven {
